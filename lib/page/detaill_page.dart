@@ -38,6 +38,7 @@ class _DetaillPageState extends State<DetaillPage> {
               Row(
                 children: [
                   Container(
+                     alignment: Alignment.center,
                     child:AnimatedTextKit(
                         animatedTexts: [
                           WavyAnimatedText('Доброе пожаловать!',textStyle: TextStyle(fontSize: 20)),
